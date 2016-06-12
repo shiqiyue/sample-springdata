@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>sample-spring-data</groupId>
+	<artifactId>sample-spring-data</artifactId>
+
+	<parent>
+		<groupId>cn.wuwenyao</groupId>
+		<artifactId>blog.parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<repositories>
+		<repository>
+			<id>debop-releases-bintray</id>
+			<url>http://dl.bintray.com/debop/maven</url>
+		</repository>
+		<repository>
+			<id>central.maven.org</id>
+			<url>http://central.maven.org/maven2/org/sitemesh/sitemesh/3.0.1/</url>
+		</repository>
+	</repositories>
+</project>
